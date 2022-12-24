@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    background-color: #3f6142;
+    padding: 0;
+    margin: 0 auto;
+    width: 1920px;
+    height: 1080px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*HEADER*/
+.header {
+    position: absolute;
+    top: 32px;
+    left: 44px;
+    right: 44px;
+    z-index: 1;
+    width: 1820px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation_list {
+    display: flex;
+    gap: 0 45px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation_link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navigation_link:hover,
+.navigation_link:focus {
+    border-bottom: 4px solid #406343;
+}
+
+.controls {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0 35px;
+}
+
+.controls_buttton {
+    background-color: transparent;
+    border: none;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    cursor: pointer;
+}
+
+.header_button svg {
+    fill: #ffffff;
+}
