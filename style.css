@@ -75,7 +75,7 @@ img {
     gap: 0 35px;
 }
 
-.controls_buttton {
+.controls_button {
     background-color: transparent;
     border: none;
     width: 35px;
@@ -87,6 +87,92 @@ img {
     cursor: pointer;
 }
 
-.header_button svg {
+.controls_items button svg {
+    fill: #ffffff;
+}
+
+.promo {
+    width: 100%;
+    height: 100%;
+}
+
+.promo_image {
+    width: 100%;
+    display: block;
+}
+
+.promo_text-li-n {
+    position: absolute;
+    top: 333px;
+    left: 312px;
+    transition: transform 0.3s ease-in;
+}
+
+.promo_text-li-n:hover {
+    transform: scale(0.95);
+}
+
+.promo_text {
+    position: absolute;
+    top: 670px;
+    right: 147px;
+    width: 429px;
+}
+
+.promo_text h2 {
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.promo_text p {
+    color: rgba(179, 179, 179, 0.8);
+    margin-top: 0;
+}
+
+.promo_controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px 0;
+    position: absolute;
+    left: 926px;
+    top: 752px;
+    margin-left: -190px;
+}
+
+.promo_scroll_button {
+    background-color: transparent;
+    border: none;
+    width: 69px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    cursor: pointer;
+}
+
+.promo_scroll_button svg {
+    fill: #ffffff;
+}
+
+.button {
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 700;
+    border: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+    padding: 22px 47px 20px;
+    background-color: #406343;
+    box-shadow: -25px 0 50px rgba(0, 0, 0, 0.1), 25px -25px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button svg {
     fill: #ffffff;
 }
